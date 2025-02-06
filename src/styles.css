@@ -1,0 +1,116 @@
+.upload-form-container input{
+    width: 4vw;
+}
+
+.upload-form-container #uploadBtn{
+    width: 100%;
+}
+
+.movie-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+.movie-card-container .movie-title, .movie-card-container .movie-is-watched, .movie-card-container .movie-rating{
+    width: 30%;
+}
+
+.movie-card-container .movie-title div{
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 1vw;
+}
+
+.movie-is-watched label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie-list {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+  
+.movie-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    color: white;
+}
+
+.add-movie-form-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-movie-form-holder form {
+    max-width: 30vw;
+    margin: 0 auto;
+  }
+  
+.add-movie-form-holder div {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1em;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+.add-movie-form-holder #is-watched{
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+.add-movie-form-holder #is-watched input{
+    width: 20px;
+}
+
+.add-movie-form-holder label {
+    display: block;
+    font-weight: bold;
+  }
+  
+.add-movie-form-holder input, .add-movie-form-holder {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.3em;
+  }
+
+.add-movie-form-holder select{
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.3em;
+    width: 40vw; /* Change the width of the select box */
+    height: 6vh; /* Change the height of the select box */
+    font-size: 16px; 
+}
+  
+.add-movie-form-holder button {
+    padding: 0.5em 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+.add-movie-form-holder button:hover {
+    background-color: #45a049;
+  }
+  
+.add-movie-form-holder p {
+    color: red;
+    font-size: 0.9em;
+  }
+
+  #rating {
+    width: 100%; /* Change the width of the select box */
+    height: 6vh; /* Change the height of the select box */
+    font-size: 16px; 
+  }
